@@ -6,8 +6,8 @@
  * @authorId 2354831939099688962
  */
 
-/* DONT TOUCH THIS!!! */
-@import url("https://github.com/vtkin/Tokyo-Night/blob/main/main.css");
+/* DONT TOUCH THIS!!!
+@import url("https://github.com/vtkin/Tokyo-Night/blob/main/main.css"); */
 
 /*  Read this before editing stuff!!!
 *
@@ -35,7 +35,7 @@
 /* @import url("https://dyzean.github.io/Tokyo-Night/addons/username-background.css"); */
 
 /* Mac Like Titlebar (windows only), get mac style titlebar on windows client (Enabled by default) */
-/* @import url("https://dyzean.github.io/Tokyo-Night/addons/mac-titlebar.css"); */
+/* @import url("https://dyzean.github.io/Tokyo-Night/addons/mac-titlebar.css");
 
 /* Compact Mode, hide some UI part on specific windows size,
   <920px Channel sidebar and member list get hidden, <600px Chat window only. (Disabled by default) */
@@ -45,7 +45,7 @@
 /* @import url("https://dyzean.github.io/Tokyo-Night/addons/monospace-fonts.css"); */
 
 /* Square Avatar, get square avatar on chat memberlist and user area (Disabled by default) */
-@import url("https://dyzean.github.io/Tokyo-Night/addons/square-avatar.css");
+@import url("https://dyzean.github.io/Tokyo-Night/addons/square-avatar.css"); */
 
 
 /* ==== Discord Variables ==== */
@@ -95,15 +95,15 @@
 
   /* Chat Box Color */
   --channeltextarea-background: var(--background-secondary);
-  --channeltextarea-background-hover: var(--background-tertiary);
+  /* --channeltextarea-background-hover: var(--background-tertiary); */
 
-	/* Square avatar addons */
-	--avatar-roundess: 5px;
+  /* Square avatar addons */
+  --avatar-roundess: 5px;
 
-  /* Mac Titlebar addons */
+  /* Mac Titlebar addons
   --close-button-color: #e92a2ade;
   --maximize-button-color: #f7bc1bde;
-  --minimize-button-color: #12db33de;
+  --minimize-button-color: #12db33de; */
 }
 
 .theme-light { /* Light Mode */
@@ -160,7 +160,7 @@
   --channeltextarea-background-hover: var(--background-tertiary);
 
   /* Square avatar addons */
-	--avatar-roundess: 5px;
+  --avatar-roundess: 5px;
 
   /* Mac Titlebar addons */
   --close-button-color: #e92a2ade;
