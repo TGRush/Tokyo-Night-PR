@@ -106,7 +106,7 @@
   --input-background: var(--background-secondary);
 }
 
-/* ~~~~		  		General							~~~~ */
+/* ~~~~         General             ~~~~ */
 .theme-dark ::selection {
   background-color: #515c7e40;
   color: #a9b1d6;
@@ -161,7 +161,7 @@
   background-color: var(--background-primary) !important;
 }
 
-/* Chat Box */
+/* Chat Box */ 
 .buttons-uaqb-5 {
   opacity: 0;
   transition: opacity .15s;
@@ -174,7 +174,7 @@
 }
 .lookFilled-1GseHa.colorPrimary-2AuQVo {
   color: var(--text-normal) !important;
-  background-color: var(--background-primary) !important;
+  background-color: var(--background-primary) !important
 }
 .mentionButton-3C5YMI {
   color: var(--accent-color);
@@ -185,9 +185,9 @@
   transition: border-color .15s ease;
 }
 .scrollableContainer-15eg7h:hover,
-.scrollableContainer-15eg7h:focus-within {
+.scrollableContainer-15eg7h:focus-within /* {
   border-bottom-color: var(--accent-color);
-}
+} */
 .emptyChannelIcon-1YdEz2 {
   background-color: var(--background-tertiary);
 }
@@ -272,7 +272,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   fill: var(--text-danger);
 }
 
-/* ~~~~		  		Messages							~~~~ */
+/* ~~~~         Messages              ~~~~ */
 
 /* Quotes */
 .blockquoteContainer-3VtvI1 {
@@ -334,7 +334,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   background-color: var(--background-secondary);
 }
 
-/* ~~~~		  		Popouts							~~~~ */
+/* ~~~~         Popouts             ~~~~ */
 
 /* User Popouts */
 .userTagUsernameNoNickname-2e_xaO {
@@ -458,7 +458,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   background-color: var(--background-primary) !important;
 }
 
-/* ~~~~		  		Sidebar							~~~~ */
+/* ~~~~         Sidebar             ~~~~ */
 
 /* Server List */
 .folder-241Joy .folderIconWrapper-1oRIZr {
@@ -537,7 +537,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   opacity: 1;
 }
 
-/* ~~~~		  		Settings Modal							~~~~ */
+/* ~~~~         Settings Modal              ~~~~ */
 
 .theme-light .closeButton-PCZcma {
   border-color: var(--background-secondary-alt);
@@ -653,15 +653,15 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 
 /* Registered Game Page */
 .gameName-zbZetm {
-	color: var(--header-primary) !important;
+  color: var(--header-primary) !important;
 }
 .lastPlayed-1jum9A,
 .nowPlayingAdd-3I4RbE,
 .overlayStatusText-In0YrK {
-	color: var(--header-secondary) !important;
+  color: var(--header-secondary) !important;
 }
 .overlayToggleIconOff-ps4gGp .fill-297bdf ~ rect {
-	fill: var(--status-danger) !important;
+  fill: var(--status-danger) !important;
 }
 .overlayToggleIconOn-21NN2N .fill-297bdf {
   fill: var(--status-positive) !important;
@@ -803,20 +803,20 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   background-color: var(--background-tertiary) !important;
 }
 
-/* ~~~~		  		Watermark							~~~~ */
+/* ~~~~         Watermark             ~~~~ */
 
-.wordmarkWindows-2dq6rw svg {
+/* .wordmarkWindows-2dq6rw svg {
   position: fixed;
   top: 3px;
   left: 50%;
-  transform: translate(-50%);
-}
+  transform: translate(-50%); 
+} */
 .typeWindows-2-g3UY {
   z-index: 1;
   background-color: var(--background-secondary-alt);
 }
 
-/* ~~~~		  		     BD Support							~~~~ */
+/* ~~~~              BD Support             ~~~~ */
 #bd-editor-controls {
   background: var(--background-secondary-alt);
   color: var(--interactive-normal);
@@ -862,7 +862,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   background-color: var(--brand-experiment-560) !important;
 }
 
-/* ~~~~		  		     Powercord Support							~~~~ */
+/* ~~~~              Powercord Support              ~~~~ */
 .powercord-toast-container {
   --toast-background: var(--background-secondary);
   --toast-header: var(--background-tertiary);
@@ -872,13 +872,13 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 }
 
 .modal-2RrUKJ {
-	background-color: var(--background-primary) !important;
+  background-color: var(--background-primary) !important;
 }
 .powercord-product-footer .lookLink-15mFoz.colorTransparent-13Bvvi {
   color: var(--text-link) !important;
 }
 
-/* ~~~~		  		 Plugin Support							~~~~ */
+/* ~~~~          Plugin Support             ~~~~ */
 
 /* Better Codeblocks */
 #app-mount .hljs {
@@ -936,7 +936,7 @@ button:hover .fa-backward:hover{
 
 /* ----------------------------- END OF THEME ----------------------------- */
 
-/* ~~~~		  		CSS Snippets							~~~~ */
+/* ~~~~         CSS Snippets              ~~~~ */
 
 /* Better name colors in chat & list light mode */
 .theme-light .username-h_Y3Us.desaturateUserColors-1O-G89.clickable-31pE3P,
