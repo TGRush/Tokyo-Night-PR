@@ -185,9 +185,9 @@
   transition: border-color .15s ease;
 }
 .scrollableContainer-15eg7h:hover,
-.scrollableContainer-15eg7h:focus-within {
+.scrollableContainer-15eg7h:focus-within /* {
   border-bottom-color: var(--accent-color);
-}
+} */
 .emptyChannelIcon-1YdEz2 {
   background-color: var(--background-tertiary);
 }
@@ -805,12 +805,12 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 
 /* ~~~~		  		Watermark							~~~~ */
 
-.wordmarkWindows-2dq6rw svg {
+/* .wordmarkWindows-2dq6rw svg {
   position: fixed;
   top: 3px;
   left: 50%;
   transform: translate(-50%);
-}
+} */
 .typeWindows-2-g3UY {
   z-index: 1;
   background-color: var(--background-secondary-alt);
