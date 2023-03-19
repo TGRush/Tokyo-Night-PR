@@ -29,4 +29,4 @@ or [click this link](https://replugged.dev/install?url=https://github.com/Dyzean
 - [NYRI4](https://github.com/NYRI4) for [Discolored](https://github.com/NYRI4/Discolored)
 - [GooseNest](https://github.com/Goose-Nest) for [Revert Rebrand](https://github.com/Goose-Nest/GT-RevertRebrand)
 - [Dyzean](https://github.com/Dyzean) for [Tokyo Night](https://github.com/Dyzean/Tokyo-Night)
-- Also Huge thanks for BD & Powercord servers for snippets and help!
+- Huge thanks to the BD & Powercord servers for snippets and help!
