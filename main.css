@@ -988,7 +988,7 @@ button[aria-label="Send a gift"],
 }
 [title^="https://discord.com/channels/"]::before,
 [title^="https://ptb.discord.com/channels/"]::before,
-[title^="https://canary.discord.com/channels/"]::before {
+[title^="https://canary.discord.com/channels/"]::before { /* ye */
   content: "Jump to Message";
   font-size: 16px;
   font-weight: 500;
