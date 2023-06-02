@@ -1,28 +1,30 @@
-@media screen and (min-width: 601px) and (max-width: 920px) {
+@media screen and (min-width: 401px) and (max-width: 1920px) {
   /* Minimize channels sidebar */
   .wrapper-1_HaEi.guilds-2JjMmN[aria-label] {
-    z-index: 30 !important; 
+    z-index: 30 !important;
   }
 
   .base-2jDfDU .sidebar-1tnWFu {
-    position: fixed;
-    z-index: 20;
-    top: 0;
-    bottom: 0;
-    left: -240px;
-    border-radius: 0;
-    transition: left 200ms;
-    transition-delay: 150ms;
+ .searchBar-zdmu7v svg {
+    color: var(--interactive-normal);
+    width: 24px !important;
+    height: 24px;
+    padding: 0.5px;
   }
-
-  .sidebar-1tnWFu:hover,
-  .wrapper-1_HaEi:hover + .base-2jDfDU > .content-1SgpWY > .sidebar-1tnWFu{
-    left: 72px;
+  .searchBar-zdmu7v:hover svg {
+    color: var(--interactive-hover)
   }
-
-  /* Hide member list */
-  .membersWrap-3NUR2t {
-    display: none;
+  .search-1FM8Qc .public-DraftEditorPlaceholder-inner {
+    transition: opacity 0.25s ease-in-out;
+    opacity: 0;
+  }
+  .search-1FM8Qc.open-3y3yI_ .public-DraftEditorPlaceholder-inner {
+    opacity: 1;
+  }
+  .search-1FM8Qc.open-3y3yI_ .searchBar-zdmu7v svg {
+    color: var(--interactive-muted);
+    transform: scale(0.8);
+    }
   }
 
   /* Compact Top bar */
@@ -64,7 +66,7 @@
 }
 
 /* Very Compact (chat only) */
-@media screen and (min-width: 0px) and (max-width: 600px) {
+@media screen and (min-width: 0px) and (max-width: 400px) {
   .panels-3wFtMD  { position: fixed; bottom: -999px; }
   .chat-2ZfjoI { margin-left: 0px; }
   .sidebar-1tnWFu { width: 0px; }
