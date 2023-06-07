@@ -994,3 +994,19 @@ button[aria-label="Send a gift"],
   font-size: 16px;
   font-weight: 500;
 }
+
+div[class^="content"] div[class^="container"], div[class^="content"] div[class^="container"] > * {
+  background-color: var(--background-tertiary)!important;
+}
+
+div[class^="content-"], div[class^="container-"] {
+    background-color: var(--background-tertiary)!important;
+}
+
+div[class*="chat-"] div[class*="scrollerContainer-"] {
+  background-color: var(--background-tertiary)!important;
+}
+
+div[class*="pageBody-"] {
+    background-color: var(--background-tertiary)!important;
+}
